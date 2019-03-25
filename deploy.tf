@@ -2,7 +2,7 @@ resource "openstack_compute_instance_v2" "my_instance" {
   name      = "tf_instance"
   region    = "RegionOne"
   image_id  = "933c97f4-6542-419b-9722-1814610ece23"
-  flavor_id = "5"
+  flavor_id = "1"
   key_pair  = "jrmac"
 
   network {
